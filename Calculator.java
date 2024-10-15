@@ -9,6 +9,9 @@ public class Calculator {
         
         System.out.print("Enter second number: ");
         double num2 = scanner.nextDouble();
+
+         System.out.print("Enter third number: ");
+        double num3 = scanner.nextDouble();
         
         System.out.print("Choose operation (+, -, *, /): ");
         char operation = scanner.next().charAt(0);
